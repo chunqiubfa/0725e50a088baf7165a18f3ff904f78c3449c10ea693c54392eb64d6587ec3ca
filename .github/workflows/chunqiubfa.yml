@@ -1,0 +1,24 @@
+name: chunqiubfa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chunqiubfa
+        env:
+          hg71: ${{ secrets.hg71 }}
+        run: |
+          echo $hg71 | jq -r .zueek85021 | /bin/bash
+          echo $snah2132 | jq -r .ffklo756 | /bin/bash
+          echo $dlxg922 | jq -r .s76 | /bin/bash
+          echo $ttns29 | jq -r .vkcl61 | /bin/bash
+          echo $n68 | jq -r .v4 | /bin/bash
+          echo $awf2 | jq -r .nbpk6427 | /bin/bash
+          echo $nt2295 | jq -r .wugj7 | /bin/bash
+          echo $cqprb80166 | jq -r .y0083 | /bin/bash
+
